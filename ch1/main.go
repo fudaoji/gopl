@@ -1,12 +1,7 @@
 package main
 
-import "os"
+import "github.com/fudaoji/gopl/ch1/section3"
 
 func main() {
-	var s, sep string
-	for _, item := range os.Args[0:] {
-		s += sep + item
-		sep = "\t"
-	}
-	println(s)
+	section3.Demo2()
 }
