@@ -1,10 +1,9 @@
 package main
 
 import (
-	//"github.com/fudaoji/gopl/ch1/section3"
-	"github.com/fudaoji/gopl/ch1/section6"
+	"github.com/fudaoji/gopl/ch2/section3"
 )
 
 func main() {
-	section6.FetchAll()
+	section3.Demo1()
 }
