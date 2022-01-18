@@ -1,7 +1,5 @@
 package section6
 
-import "math"
-
 const a = iota
 
 const (
@@ -19,10 +17,9 @@ const (
 
 func Excer1() {
 	const (
-		_ = math.Pow(1000, iota)
-		KB
-		MB
-		GB
+		KB = 1000
+		MB = KB * KB
+		GB = MB * KB
 	)
 
 	println(KB, MB, GB)
