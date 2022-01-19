@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/fudaoji/gopl/ch4/section1"
+	"github.com/fudaoji/gopl/ch4/section2"
 )
 
 func main() {
-	section1.SliceDemo()
+	section2.DemoAppend()
 }
