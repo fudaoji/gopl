@@ -86,6 +86,6 @@ func Demo() {
 			fmt.Fprintf(os.Stderr, "reading: %v\n", err)
 			os.Exit(1)
 		}
-		fmt.Printf("%s", content)
+		fmt.Printf("%s\n", content)
 	}
 }
