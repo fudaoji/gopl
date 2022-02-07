@@ -17,6 +17,7 @@ func DemoOutline() {
 	outline(nil, doc)
 }
 
+//outline print html node
 func outline(stack []string, n *html.Node) {
 	if n.Type == html.ElementNode {
 		stack = append(stack, n.Data)
