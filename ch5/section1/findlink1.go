@@ -25,7 +25,7 @@ func visit(links []string, n *html.Node) []string {
 func Demo1() {
 	doc, err := html.Parse(os.Stdin)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "friendlinks1: %v", err)
+		fmt.Fprintf(os.Stderr, "findlinks1: %v", err)
 	}
 
 	for _, link := range visit(nil, doc) {

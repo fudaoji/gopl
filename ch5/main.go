@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	section1.Demo1()
+	section1.DemoOutline()
 }
